@@ -1,0 +1,14 @@
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(37, 80, 165);
+
+  color: aliceblue;
+}
+
+.pie__link {
+  text-decoration: none;
+  color: aliceblue;
+}

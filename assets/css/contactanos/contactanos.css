@@ -1,0 +1,14 @@
+.contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.contactanos__titulo {
+  font-size: 3rem;
+  /* width: 100%; */
+  /* background-color: rgb(76, 144, 144); */
+}
+
