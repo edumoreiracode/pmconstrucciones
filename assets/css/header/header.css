@@ -1,4 +1,26 @@
 .cabecera {
-  background-image: linear-gradient(to bottom, rgba(14, 12, 29, 0.7), rgba(0, 0, 0, 0)), url("../../img/albanil-que-instala-albanileria-ladrillos-pared-exterior-espatula-espatula.jpg");
+  background-image: linear-gradient(to bottom, rgba(14, 12, 29, 1), rgba(0, 0, 0, 0.3)), url("../../img/albanil-que-instala-albanileria-ladrillos-pared-exterior-espatula-espatula.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem 0;
+}
+
+.custom-toggler {
+  /* Estilos personalizados para el botón de expansión */
+  border: none;
+}
+
+.custom-toggler:active {
+  /* Estilos personalizados para el botón de expansión */
+  border: none;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 1.5rem 2rem;
+  }
 }

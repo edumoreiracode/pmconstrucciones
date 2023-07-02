@@ -1,25 +1,28 @@
 .presentacion {
-  /* background-color: cornflowerblue; */
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 600px;
+  max-width: 1024px;
+  margin: auto;
   line-height: 1rem;
-  color: aliceblue;
+  color: rgb(251, 251, 251);
 }
 
 .presentacion__titulo {
-  /* text-align: center; */
+  text-align: center;
   font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
 .presentacion__texto {
-  /* text-align: center; */
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
 }
 
 .presentacion__button {
@@ -37,4 +40,11 @@
 
 .presentacion__button:hover {
   transform: scale(1.02);
+}
+
+
+@media screen and (max-width: 375px) {
+  .presentacion__titulo {
+    font-size: 3rem;
+  }
 }

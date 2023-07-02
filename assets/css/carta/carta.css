@@ -3,3 +3,23 @@
   /* background-color: rgb(131, 175, 213); */
   padding: 1rem 0;
 }
+
+.carta__titulo {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.carta h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.carta__icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.carta__texto {
+  padding: 0 1rem;
+}

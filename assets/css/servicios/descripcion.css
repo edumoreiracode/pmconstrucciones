@@ -1,0 +1,17 @@
+.descripcion {
+    max-width: 1024px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2rem;
+}
+
+@media screen and (min-width: 375px) {
+    .descripcion {
+        font-size: 1.25rem;
+    }
+  }

@@ -1,14 +1,35 @@
 .contactanos {
   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgba(14, 12, 29, 1), rgba(0, 0, 0, 0.3)), url("../../img/cerca-trabajador-construccion-telefono-movil.jpg");
+  background-size: cover;
+  background-position: top;
+  color: aliceblue;
+}
+
+.contactanos-container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  color: aliceblue;
+  padding-bottom: 5rem;
 }
 
 .contactanos__titulo {
-  font-size: 3rem;
-  /* width: 100%; */
-  /* background-color: rgb(76, 144, 144); */
+  font-size: 4rem;
+  text-align: center;
 }
 
+@media screen and (max-width: 375px) {
+  .contactanos-container {
+    padding: 0;
+  }
+  
+  .contactanos__titulo {
+    font-size: 2rem;
+  }
+}
