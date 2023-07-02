@@ -4,33 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>PMConstrucciones</title>
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Mi CSS -->
   <link rel="stylesheet" href="assets/css/global.css">
   <link rel="stylesheet" href="assets/css/header/header.css">
   <link rel="stylesheet" href="assets/css/header/presentacion.css">
+  <link rel="stylesheet" href="assets/css/servicios/descripcion.css">
   <link rel="stylesheet" href="assets/css/servicios/servicios.css">
   <link rel="stylesheet" href="assets/css/carta/carta.css">
   <link rel="stylesheet" href="assets/css/galeria/galeria.css">
   <link rel="stylesheet" href="assets/css/contactanos/contactanos.css">
-  <link rel="stylesheet" href="assets/css/pie.css">
+  <link rel="stylesheet" href="assets/css/footer/pie.css">
+  <link rel="stylesheet" href="assets/css/footer/whatsapp-button.css">
   </head>
 </head>
 <body>
   <header class="cabecera">
-    <nav class="navbar navbar-expand-lg navbar-transparent" data-bs-theme="dark">
+    <!-- <nav class="navbar navbar-expand-lg navbar-transparent bg-opacity-50" data-bs-theme="dark"></nav> -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <!-- <img src="assets/img/LOGO002.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> -->
+          <!-- PM Construcciones -->
+          <!-- <i class="fa-solid fa-person-digging"></i> -->
+          <!-- <i class="fa-solid fa-person-digging"></i> -->
           PM Construcciones
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -56,85 +64,93 @@
     </nav>
 
     <div class="presentacion">
-      <h1 class="presentacion__titulo">PABLO MOREIRA</h1>
-      <p class="presentacion__texto">CONSTRUCCIONES</p>
+      <!-- <i class="fa-solid fa-person-digging main-icon"></i> -->
+      <h1 class="presentacion__titulo">Construccion de Calidad</h1>
+      <p class="presentacion__texto">Somos una empresa comprometida con la excelencia, nos dedicamos a construir tus sueños y crear espacios excepcionales.</p>
       <a href="#" class="presentacion__button">Nuestro Trabajo</a>
     </div>
+
+    <!-- <a href="https://api.whatsapp.com/send?phone=5493794353575&text=Hola%20Quisiera%20contactarme%20con%20ustedes" target="_blank">
+      <img src="assets/img/whatsapp.svg" alt="WhatsApp">
+    </a>
+     -->
   </header>
 
   <main>
+    
     <section class="servicios">
+      <p class="descripcion">
+          Ofrecemos servicios de construcción en general y construcción de piletas a medida, brindando soluciones personalizadas, calidad superior y satisfacción garantizada
+      </p>
+    
+
       <div class="carta">
-        <h3 class="carta__titulo">Servicio</h3>
+        <div class="carta__titulo">
+          <i class="fa-solid fa-house carta__icon"></i>
+          <h3>Construcción de residencial</h3>
+        </div>
         <p class="carta__texto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum modi molestias, labore maxime sed!
+          Desde casas unifamiliares hasta complejos de apartamentos.
         </p>
       </div>
 
       <div class="carta">
-        <h3 class="carta__titulo">Servicio</h3>
+        <div class="carta__titulo">
+          <i class="fa-solid fa-water-ladder carta__icon"></i>
+          <h3>Construcción de piletas</h3>
+        </div>
         <p class="carta__texto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum modi molestias, labore maxime sed!
+          Piletas a medida, diseñadas según tus preferencias y necesidades específicas.
         </p>
       </div>
 
       <div class="carta">
-        <h3 class="carta__titulo">Servicio</h3>
+        <div class="carta__titulo">
+          <i class="fa-solid fa-house-circle-exclamation carta__icon"></i>
+          <h3>Renovaciones y remodelaciones</h3>
+        </div>
         <p class="carta__texto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum modi molestias, labore maxime sed!
-        </p>
-      </div>
-
-      <div class="carta">
-        <h3 class="carta__titulo">Servicio</h3>
-        <p class="carta__texto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum modi molestias, labore maxime sed!
-        </p>
-      </div>
-
-      <div class="carta">
-        <h3 class="carta__titulo">Servicio</h3>
-        <p class="carta__texto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum modi molestias, labore maxime sed!
-        </p>
-      </div>
-
-      <div class="carta">
-        <h3 class="carta__titulo">Servicio</h3>
-        <p class="carta__texto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum modi molestias, labore maxime sed!
+          Ya sea para actualizar tu hogar antiguo o adaptar una propiedad a nuevas necesidades
         </p>
       </div>
 
       <a href="#" class="presentacion__button">Nuestros Servicios</a>
-      
     </section>
 
     <section class="galeria">
-      <h2 class="galeria__titulo">Proyectos Finalizados</h2>
+      <h2 class="galeria__titulo">Trabajos Finalizados</h2>
       <div class="fotos-container">
-        <img src="https://picsum.photos/300/300" alt="" class="imagen">
-        <img src="https://picsum.photos/300/300" alt="" class="imagen">
-        <img src="https://picsum.photos/300/300" alt="" class="imagen">
+        <img src="https://picsum.photos/300/300" alt="" class="fotos-container__imagen">
+        <img src="https://picsum.photos/300/300" alt="" class="fotos-container__imagen">
+        <img src="https://picsum.photos/300/300" alt="" class="fotos-container__imagen">
       </div>
     </section>
 
     <section class="contactanos">
-      <h2 class="contactanos__titulo">¿Te gusta nuestro trabajo?</h2>
-      <a href="#" class="presentacion__button">Contratanos</a>
+      <div class="contactanos-container">
+        <h2 class="contactanos__titulo">¿Te gusta nuestro trabajo?</h2>
+        <a href="#" class="presentacion__button">Contratanos</a>
+      </div>
     </section>
 
   </main>
-
+  
+  <!-- Bootstrap Script -->
   <footer class="pie">
     <p>Desarrollado por <a href="#" class="pie__link">Eduardo Moreira</a></p>
+    
+    <div id="whatsapp-button">
+      <a href="https://api.whatsapp.com/send?phone=5493794353575&text=Hola%20Quisiera%20contactarme%20con%20ustedes" target="_blank">
+        <img src="assets/img/whatsapp.svg" alt="WhatsApp">
+      </a>
+    </div>
+
+    <!-- <a href="https://www.freepik.es/foto-gratis/albanil-que-instala-albanileria-ladrillos-pared-exterior-espatula-espatula_4550498.htm#query=builder&position=2&from_view=search&track=sph">Imagen de jcomp</a> en Freepik -->
+    
   </footer>
-
-
-
-  <a href="https://www.freepik.es/foto-gratis/albanil-que-instala-albanileria-ladrillos-pared-exterior-espatula-espatula_4550498.htm#query=builder&position=2&from_view=search&track=sph">Imagen de jcomp</a> en Freepik
-
-  <!-- Bootstrap Script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- <script src="assets/js/image-zoom-hover.js"></script> -->
 </body>
+
+
 </html>
