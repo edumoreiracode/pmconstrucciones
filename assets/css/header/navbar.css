@@ -1,0 +1,28 @@
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .navbar.scrolled {
+    background-color: #333; /* Cambia este color al que desees al hacer scroll */
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .container-fluid {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 480px) {
+    .navbar {
+      padding: 1.5rem 2rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .navbar {
+      background-color: #333; /* Cambia este color al que desees en dispositivos móviles */
+      padding: 1.5rem .5rem;
+    }
+  }
