@@ -1,7 +1,7 @@
 .navbar {
     background-color: transparent;
     transition: background-color 0.3s;
-    
+    padding: 1.5rem .5rem;
   }
   
   .navbar.scrolled {
@@ -14,15 +14,15 @@
     margin: auto;
   }
 
-  @media screen and (min-width: 480px) {
-    .navbar {
-      padding: 1.5rem 2rem;
-    }
-  }
-
   @media (max-width: 992px) {
     .navbar {
       background-color: #333; /* Cambia este color al que desees en dispositivos móviles */
-      padding: 1.5rem .5rem;
+      /* padding: 1.5rem .5rem; */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      padding: .5rem .5rem;
     }
   }
